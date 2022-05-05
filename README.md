@@ -1,6 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DeFi Staking Protocol Front End
+
+This is the front end for my [Defi Staking Protocol](https://github.com/auto-mausx/Defi-Staking-Protocol) contracts. This is mainly from the Chainlink Hackathon 2022, however I will be attempting to host this entire application with [Fleek](https://fleek.co) to see what that platform is capable of.
+
+I plan on adding on to this code base and experiment with Defi as I go along.
 
 ## Getting Started
+
+### Backend
+
+I recommend checking out my backend code/smart contracts and deploy those locally first, so all of the front end code works correctly. You may need to change the ABI's and addresses according to your local deployment. Check out that README for information on how to run that code and how it works.
+
+---
+
+### Frontend
 
 First, run the development server:
 
@@ -12,23 +24,13 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies Used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/docs/api-reference/create-next-app)
+- Javascript
+- Web3 UI Kit by Moralis
+- Ethers.js
+- [Moralis](https://moralis.io/web3ui-kit-the-ultimate-web3-user-interface-kit/)
+- [Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs)
